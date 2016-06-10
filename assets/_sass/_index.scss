@@ -1,0 +1,30 @@
+
+header {
+  text-align: center;
+}
+
+.home {
+  img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+// main logo
+header img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+nav {
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+nav, nav a { color: #0aabdd; }
+nav a:hover { color: #439eba; }

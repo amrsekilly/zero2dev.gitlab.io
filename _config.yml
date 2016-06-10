@@ -1,0 +1,32 @@
+name: ZeroToDev
+description: A vlog about freelancing and web development created by @amrsekilly
+url: 'http://zero2dev.com'
+baseurl: ''
+email: contact@zero2dev.com
+twitter: https://twitter.com/ZeroToDev
+youtube: https://www.youtube.com/channel/UC3qtkVwRWmbbkK-dnllL7xQ
+google_analytics: 'UA-77256409-2'
+
+################################################################
+################################################################
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - .gitignore
+collections:
+  videos:
+    output: true
+    permalink: /:path/
+defaults:
+  -
+    scope:
+      path: ''
+      type: videos
+    values:
+      layout: video
